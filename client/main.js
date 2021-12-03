@@ -25,3 +25,6 @@ Template.hello.events({
 
   
 });
+
+
+Days = new Mongo.Collection('days');

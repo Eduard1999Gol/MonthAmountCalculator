@@ -10,6 +10,11 @@ Template.MainPage.events({
         const overlay =  document.querySelector('#overlay');
         overlay.classList.remove('flex');
         overlay.classList.add('hidden');
+    },
+
+    'submit form#addDayForm': function (event) {
+        event.preventDefault();
+        console.log(event.currentTarget.radio.value)
         
     }
 })
